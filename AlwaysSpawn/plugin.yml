@@ -1,0 +1,17 @@
+name: AlwaysSpawn
+version: 1.0.0
+main: karasu\Main
+api: [5.0.0]
+authors: [karasu]
+commands:
+  setspawn:
+    description: "Set custom spawn point"
+    usage: "/setspawn"
+    permission: teleporttospawn.setspawn
+permissions:
+  teleporttospawn.setspawn:
+    description: "Allows setting spawn points"
+    default: op
+  teleporttospawn.bypass:
+    description: "Bypass teleport to spawn"
+    default: false

@@ -1,0 +1,14 @@
+# Delay in ticks before teleport (20 ticks = 1 second)
+teleport-delay: 20
+
+# Send welcome title
+welcome-title:
+  enabled: true
+  title: "§aWelcome!"
+  subtitle: "§7Teleported to spawn"
+
+# Custom world name (leave empty for default world)
+custom-world: "world"
+
+# Bypass permission
+bypass-permission: "teleporttospawn.bypass"
